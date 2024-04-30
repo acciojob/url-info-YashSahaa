@@ -2,6 +2,6 @@
 function getLen() {
 	var str = window.location.origin
 	var len = str.length
-	return len
+	return "The length of the URL is: " +len
 }
 alert(getLen())
